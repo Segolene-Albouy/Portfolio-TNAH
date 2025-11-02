@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de la Promo 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Portfolio des promotions TNAH</h1>
+            <p class="subtitle">Découvrez les sites personnels de vos camarades</p>
+        </header>
+
+        <div class="stats">
+            {{ student_count }} étudiant{{ student_plural }} dans l'annuaire
+        </div>
+
+        <div class="students-grid">
+            {{ students_cards }}
+        </div>
+
+        <footer>
+            <p>Généré automatiquement via GitHub Actions</p>
+            <p>Pour vous ajouter, créez une Pull Request !</p>
+        </footer>
+    </div>
+</body>
+</html>
