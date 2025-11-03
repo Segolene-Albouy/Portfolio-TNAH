@@ -35,12 +35,7 @@ def generate_html():
     html_content = template.replace('{{ students_cards }}', students_html)
     html_content = html_content.replace('{{ student_count }}', str(len(students)))
     html_content = html_content.replace('{{ student_plural }}', 's' if len(students) > 1 else '')
-
     (ROOT_DIR / 'index.html').write_text(html_content, encoding='utf-8')
-    (ROOT_DIR / 'style.css').write_text(
-        (ROOT_DIR / 'templates' / 'static' / 'style.css').read_text(encoding='utf-8'),
-        encoding='utf-8'
-    )
 
     print(f"✅ HTML généré avec succès ({len(students)} étudiants)")
 
