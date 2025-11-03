@@ -1,6 +1,6 @@
 # Portfolio TNAH
 
-[Annuaire collaboratif](https://https://segolene-albouy.github.io/Portfolio-TNAH/) des sites personnels des promotions TNAH.
+> ### [Annuaire collaboratif](https://segolene-albouy.github.io/Portfolio-TNAH/) des promotions du Master Technologies numériques appliquées à l'histoire de l'École des chartes.
 
 ## Contribuer au portfolio
 
