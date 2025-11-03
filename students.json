@@ -14,4 +14,12 @@
     "matiere_preferee": "Python",
     "emoji": "🐊"
   }
+  ,{
+    "prenom": "Clara",
+    "nom": "Martin",
+    "promo": 2025,
+    "github_page": "https://CMartinArchives.github.io",
+    "matiere_preferee": "Git",
+    "emoji": "😳"
+  }
 ]
