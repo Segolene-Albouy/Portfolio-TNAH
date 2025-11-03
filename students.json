@@ -6,5 +6,12 @@
     "github_page": "https://segolene-albouy.github.io/",
     "matiere_preferee": "Git",
     "emoji": "🍓"
+  },{
+    "prenom": "Florent",
+    "nom": "Farfouillon",
+    "promo": 2025,
+    "github_page": "https://flo_far.github.io/",
+    "matiere_preferee": "Python",
+    "emoji": "🐊"
   }
 ]
