@@ -7,6 +7,13 @@
     "matiere_preferee": "Git",
     "emoji": "🍓"
   },{
+    "prenom": "Florian",
+    "nom": "Martin",
+    "promo": 2025,
+    "github_page": "https://floflo-boop.github.io/",
+    "matiere_preferee": "Python",
+    "emoji": "🏀"
+  }, {
     "prenom": "Clotile",
     "nom": "Long",
     "promo": 2025,
@@ -58,7 +65,6 @@
     "matiere_preferee": "Pérennisation des documents numériques",
     "emoji": "🐀"
   }
-
   ,{
     "prenom": "Jules",
     "nom": "Musquin",
