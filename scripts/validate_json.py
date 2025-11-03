@@ -55,13 +55,13 @@ def validate_students_json():
             if not parsed.netloc:
                 errors.append(f"Étudiant #{i + 1} : URL invalide ({url})")
 
-    seen_combinations = set()
+    first_last_names = set()
     for i, student in enumerate(students):
         if 'prenom' in student and 'nom' in student:
-            combo = (student['prenom'].lower(), student['nom'].lower())
-            if combo in seen_combinations:
+            student_name = (student['prenom'].lower(), student['nom'].lower())
+            if student_name in first_last_names:
                 errors.append(f"Étudiant #{i + 1} : doublon détecté ({student['prenom']} {student['nom']})")
-            seen_combinations.add(combo)
+            first_last_names.add(student_name)
 
     if errors:
         print("❌ Erreurs de validation :\n")
