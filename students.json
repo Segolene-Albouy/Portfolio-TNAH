@@ -43,4 +43,12 @@
     "matiere_preferee": "Git",
     "emoji": "😳"
   }
+  ,{
+    "prenom": "Arthur",
+    "nom": "Douilly",
+    "promo": 2025,
+    "github_page": "https://arthurdouilly.github.io/",
+    "matiere_preferee": "Pérennisation des documents numériques",
+    "emoji": "🐀"
+  }
 ]
