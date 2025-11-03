@@ -58,4 +58,13 @@
     "matiere_preferee": "Pérennisation des documents numériques",
     "emoji": "🐀"
   }
+
+  ,{
+    "prenom": "Jules",
+    "nom": "Musquin",
+    "promo": 2026,
+    "github_page": "https://anarchiviste.github.io",
+    "matiere_preferee": "Git",
+    "emoji": "(•⩊•)"
+  }
 ]
